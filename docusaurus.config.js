@@ -66,7 +66,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -83,7 +83,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
               },
             ],
@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: 'About HSmithDev',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: '/about',
               },
               {
                 label: 'Trophy Cat Games',
@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HSmithDev LLC. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
