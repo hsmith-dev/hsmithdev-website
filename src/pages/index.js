@@ -17,7 +17,7 @@ import {
   faSteamSquare,
   faAppStoreIos,
   faGooglePlay,
-  faEmail,
+  faPlaystation,
   faXbox,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -41,19 +41,53 @@ function HomepageHeader() {
               <FontAwesomeIcon icon={faMicroblog} size="2x" color="white" />
             </a>
             <a
+              href="https://discord.gg/2tMaMkpy8G"
+              className="discord social"
+              alt="Discord"
+            >
+              <FontAwesomeIcon icon={faDiscord} size="2x" />
+            </a>
+            <a
+              href="https://www.facebook.com/trophycatgamesllc/"
+              className="facebook social"
+              alt="Facebook"
+            >
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a
+              href="https://instagram.com/trophycatgames"
+              className="instagram social"
+              alt="Instagram"
+            >
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
+            <a
+              href="https://instagram.com/trophycatgames"
+              className="kickstarter social"
+              alt="Kickstarter"
+            >
+              <FontAwesomeIcon icon={faKickstarterK} size="2x" />
+            </a>
+            <a
+              href="https://www.patreon.com/TrophyCatGamesLLC"
+              className="patreon social"
+              alt="Patreon"
+            >
+              <FontAwesomeIcon icon={faPatreon} size="2x" />
+            </a>
+            <a
+              href="https://tiktok.com/@trophycatgames"
+              className="tiktok social"
+              alt="Tiktok"
+            >
+              <FontAwesomeIcon icon={faTiktok} size="2x" />
+            </a>
+            <a
               href="https://www.youtube.com/@trophycatgames"
               className="youtube social"
               alt="YouTube"
             >
               <FontAwesomeIcon icon={faYoutube} size="2x" />
-            </a>
-
-            <a
-              href="mailto://contact@hsmith.dev"
-              className="email social"
-              alt="Email"
-            >
-              <FontAwesomeIcon icon={faEmail} size="2x" />
             </a>
           </p>
        
@@ -75,11 +109,25 @@ function HomepageHeader() {
               <FontAwesomeIcon icon={faAppStoreIos} size="2x" color="white" />
             </a>
             <a
-              href="https://play.google.com/store/apps/dev?id=6337965776600126713"
+              href="https://play.google.com/store/apps/dev?id=5731946363590295486&pli=1"
               className="googleplay social"
               alt="Google Play Store"
             >
               <FontAwesomeIcon icon={faGooglePlay} size="2x" color="white" />
+            </a>
+            <a
+              href="https://playstation.com"
+              className="playstation social"
+              alt="Playstation"
+            >
+              <FontAwesomeIcon icon={faPlaystation} size="2x" color="white" />
+            </a>
+            <a
+              href="https://xbox.com"
+              className="xbox social"
+              alt="Xbox"
+            >
+              <FontAwesomeIcon icon={faXbox} size="2x" color="white" />
             </a>
           </p>
         </div>
@@ -92,8 +140,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`HSmithDev LLC`}
-      description="Software Development Company based in Salt Lake City, Utah.">
+      title={`Indie Game Development`}
+      description="Trophy Cat Games LLC is an indie game development studio based in Utah.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

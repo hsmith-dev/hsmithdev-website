@@ -1,6 +1,29 @@
 harrison:
   name: Harrison Smith
-  title: CEO & Software Engineer
-  url: https://github.com/hsmith-dev
+  title: Software Engineer
+  url: https://hsmith.dev
   image_url: https://github.com/hsmith-dev.png
 
+marta:
+  name: Marta Gallardo
+  title: Game Artineer
+  url: https://github.com/MartaOGallardo
+  image_url: https://github.com/MartaOGallardo.png
+
+alistair:
+  name: Alistair B
+  title: Game Artineer
+  url: https://github.com/alistair-dev
+  image_url: https://github.com/alistair-dev.png
+
+bree:
+  name: Bree
+  title: Game Artineer
+  url: https://github.com/bre-artineer
+  image_url: https://github.com/bre-artineer.png
+
+sean:
+  name: Sean
+  title: Game Artineer
+  url: https://github.com/sean-artineer
+  image_url: https://github.com/sean-artineer.png

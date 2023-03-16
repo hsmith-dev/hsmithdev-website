@@ -29,3 +29,83 @@
   --ifm-color-primary-lightest: #fbfcff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+h1 {
+  margin: 0 auto;
+  text-align:center;
+  
+}
+
+h2 {
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+
+.circular--profile { 
+  border-radius: 50%;
+}
+
+
+.hero__title {
+  color: whitesmoke;
+}
+
+.hero__subtitle {
+  color: whitesmoke;
+}
+
+.social-container {
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: white;
+}
+
+a.facebook {
+  color: white;
+}
+
+a.instagram {
+  color: white;
+}
+
+a.discord {
+  color: white;
+}
+
+a.tiktok {
+  color: white;
+}
+
+a.patreon { 
+  color: white;
+}
+
+a.kickstarter {
+  color: white;
+}
+
+a.microblog {
+  color: white;
+}
+
+a.square-steam {
+  color: white;
+}
+
+a.game-container {
+  text-align:center;
+}
